@@ -7,8 +7,8 @@ Datasets and Trained models : <a href="https://drive.google.com/drive/folders/1m
 
 Code will be released soon in this repository
 
+<!--Cite as
 <pre>
-cite as
 @article{
   cascacadetabnet2020
   authors = ""
@@ -16,4 +16,4 @@ cite as
   journal = ""
   year = ""
 }
-</pre>
+</pre>-->
