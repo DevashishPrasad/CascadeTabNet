@@ -1,5 +1,5 @@
 # CascadeTabNet
-This repository contains the code and implementation details of the CascadeTabNet paper "CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents"
+This repository contains the code and implementation details of the CascadeTabNet paper <b>"CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents"</b>
 
 Link of Paper : The paper has been accepted at <b>CVPR2020 Workshop on Text and Documents in the Deep Learning Era</b> and preprint link will be available soon
 
