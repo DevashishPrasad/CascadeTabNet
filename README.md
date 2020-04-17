@@ -5,6 +5,9 @@ Link of Paper : The paper has been accepted at <b>CVPR2020 Workshop on Text and 
 
 Datasets and Trained models : <a href="https://drive.google.com/drive/folders/1mNDbbhu-Ubz87oRDjdtLA4BwQwwNOO-G?usp=sharing">gdrive link</a>
 
+Castabnet Model structure : 
+
+<img src="" />
 Code will be released soon in this repository
 
 <!--Cite as
