@@ -7,7 +7,7 @@ Datasets and Trained models : <a href="https://drive.google.com/drive/folders/1m
 
 Castabnet Model structure : 
 
-<img src="" />
+<img src="theonnx.onnx.svg" />
 Code will be released soon in this repository
 
 <!--Cite as
