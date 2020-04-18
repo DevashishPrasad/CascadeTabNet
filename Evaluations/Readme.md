@@ -9,7 +9,7 @@ Official site : http://www.tamirhassan.com/html/competition.html
 
 ### Prerequisites
 
-This tool is tested on Windows 7 olny
+This tool is tested on Windows 7 only
 1. Java Oracle 8
 2. Python 3
 3. Provided JAR file need to be placed in you java jre dictory, inside the lib/ext
