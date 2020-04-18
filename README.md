@@ -55,25 +55,25 @@ Checkpoints of the Models we have trained :
   <th>Model Name</th><th>Checkpoint File</th><th>Configuration File</th>
   </tr>
   <tr>
-  <td>General Model table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>General Model table detection</td><td><a href="https://drive.google.com/open?id=1-xfq5hDmFdKgbY9FSFTmhSlcb2p13RPn">Checkpoint</a></td><td><a href="">Config</a></td>
   </tr>
   <tr>
-  <td>ICDAR 13 table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>ICDAR 13 table detection</td><td><a href="https://drive.google.com/open?id=1-mVr4UBicFk3mjUz5tsVPjQ4jzRtiT7V">Checkpoint</a></td><td><a href="">Config</a></td>
   </tr>
   <tr>
-  <td>ICDAR 19 (Track A Modern) table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>ICDAR 19 (Track A Modern) table detection</td><td><a href="https://drive.google.com/open?id=1vfUr4pmmI4GICZubAnBeFU8pviMUW_c9">Checkpoint</a></td><td><a href="">Config</a></td>
   </tr>  
   <tr>
-  <td>Table Bank Word table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>Table Bank Word table detection</td><td>-<td><a href="">Config</a></td>
   </tr>    
   <tr>
-  <td>Table Bank Latex table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>Table Bank Latex table detection</td><td>-<td><a href="">Config</a></td>
   </tr>    
   <tr>
-  <td>Table Bank Both table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>Table Bank Both table detection</td><td><a href="https://drive.google.com/open?id=1-nTe0oNOYPMjl_3Zo4CsBN9y4lponvCd">Checkpoint</a></td><td><a href="">Config</a></td>
   </tr>      
   <tr>
-  <td>ICDAR 19 (Track B2 Modern) table structure recognition</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  <td>ICDAR 19 (Track B2 Modern) table structure recognition</td><td><a href="https://drive.google.com/open?id=1-QieHkR1Q7CXuBu4fp3rYrvDG9j26eFT">Checkpoint</a></td><td><a href="">Config</a></td>
   </tr>      
 </table>
 
