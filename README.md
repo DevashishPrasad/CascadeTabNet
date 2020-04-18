@@ -50,15 +50,32 @@ CascadTabNet is an automatic table recognition method for interpretation of tabu
 ## Model Zoo
 Checkpoints of the Models we have trained : 
 
-<ol>
-  <li>General Model table detection</li>
-  <li>ICDAR 13 table detection</li>
-  <li>ICDAR 19 (Track A Modern) table detection </li>
-  <li>Table Bank Word table detection</li>
-  <li>Table Bank Latex table detection</li> 
-  <li>Table Bank Both table detection</li>
-  <li>ICDAR 19 (Track B2 Modern) table structure recognition</li>
-</ol>
+<table>
+  <tr>
+  <th>Model Name</th><th>Checkpoint File</th><th>Configuration File</th>
+  </tr>
+  <tr>
+  <td>General Model table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>
+  <tr>
+  <td>ICDAR 13 table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>
+  <tr>
+  <td>ICDAR 19 (Track A Modern) table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>  
+  <tr>
+  <td>Table Bank Word table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>    
+  <tr>
+  <td>Table Bank Latex table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>    
+  <tr>
+  <td>Table Bank Both table detection</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>      
+  <tr>
+  <td>ICDAR 19 (Track B2 Modern) table structure recognition</td><td><a href="">Checkpoint</a></td><td><a href="">Config</a></td>
+  </tr>      
+</table>
 
 Whole code will be released soon in this repository
 
