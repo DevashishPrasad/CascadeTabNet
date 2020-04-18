@@ -64,10 +64,10 @@ Checkpoints of the Models we have trained :
   <td>ICDAR 19 (Track A Modern) table detection</td><td><a href="https://drive.google.com/open?id=1vfUr4pmmI4GICZubAnBeFU8pviMUW_c9">Checkpoint</a></td>
   </tr>  
   <tr>
-  <td>Table Bank Word table detection</td><td>-<td>
+  <td>Table Bank Word table detection</td><td>-</td>
   </tr>    
   <tr>
-  <td>Table Bank Latex table detection</td><td>-<td>
+  <td>Table Bank Latex table detection</td><td>-</td>
   </tr>    
   <tr>
   <td>Table Bank Both table detection</td><td><a href="https://drive.google.com/open?id=1-nTe0oNOYPMjl_3Zo4CsBN9y4lponvCd">Checkpoint</a></td>
