@@ -19,7 +19,7 @@ This tool is tested on Windows 7 only
 
 The format for PDF, Ground Truth and Result should be in the same format as specified in ICDAR 13 official site
 Also, the naming convention as specified by ICDAR 13 are
-file.pdf, file-reg.xml, file-reg-result.xml 
+file.pdf, file-reg.xml, file-reg-result.xml <br>
 Where, file.pdf is the PDF on which the detection is performed, 
 file-reg.xml is the Groundthruth XML file used for table Detection
 file-reg-result.xml Contains the output Detected coordinate of algorithm.
