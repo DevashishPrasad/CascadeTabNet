@@ -5,7 +5,7 @@ recognition.
 
 ## ICDAR 13
 
-Official site : http://www.tamirhassan.com/html/competition.html
+Official site : http://www.tamirhassan.com/html/competition.html <br>
 Download the Complete Data [Here](http://www.tamirhassan.com/html/files/icdar2013-competition-dataset-with-gt.zip)
 
 ### Prerequisites
@@ -42,7 +42,7 @@ to get result
 ## ICDAR 19
 
 ICDAR 19 evalution Tool can be found [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
-Get the Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
+and Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 
 ## Table Bank
 
