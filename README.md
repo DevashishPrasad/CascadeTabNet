@@ -51,7 +51,7 @@ CascadTabNet is an automatic table recognition method for interpretation of tabu
 Checkpoints of the Models we have trained : 
 
 <ol>
-  <a<li>General Model table detection</li>
+  <li>General Model table detection</li>
   <li>ICDAR 13 table detection</li>
   <li>ICDAR 19 (Track A Modern) table detection </li>
   <li>Table Bank Word table detection</li>
