@@ -1,6 +1,5 @@
 # CascadeTabNet
-This repository contains the code and implementation details of the CascadeTabNet paper <b>"CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents"</b>
-
+______
 ## License
 The code of CascadeTabNet is released under the MIT License. There is no limitation for both acadmic and commercial usage.
 
