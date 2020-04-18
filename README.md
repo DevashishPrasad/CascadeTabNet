@@ -47,6 +47,19 @@ CascadTabNet is an automatic table recognition method for interpretation of tabu
 #### 1. ICDAR 19 (Track B2)
 <img src="imgs/TSR.png" width="450"/>
 
+## Model Zoo
+Checkpoints of the Models we have trained : 
+
+<ol>
+  <a<li>General Model table detection</li>
+  <li>ICDAR 13 table detection</li>
+  <li>ICDAR 19 (Track A Modern) table detection </li>
+  <li>Table Bank Word table detection</li>
+  <li>Table Bank Latex table detection</li> 
+  <li>Table Bank Both table detection</li>
+  <li>ICDAR 19 (Track B2 Modern) table structure recognition</li>
+</ol>
+
 Whole code will be released soon in this repository
 
 
