@@ -46,4 +46,3 @@ and Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 
 ## Table Bank
 
-Releasing Soon
