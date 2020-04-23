@@ -13,7 +13,7 @@ Download the Complete Data [Here](http://www.tamirhassan.com/html/files/icdar201
 This tool is tested on Windows 7 only
 1. Java Oracle 8
 2. Python 3
-3. Provided JAR file need to be placed in you java jre dictory, inside the lib/ext
+3. Provided JAR file need to be placed in you java jre directory, inside the lib/ext
 
 ### Format of file 
 
@@ -38,11 +38,10 @@ python eval.py
 ```
 to get result 
 
-
 ## ICDAR 19
 
 ICDAR 19 evalution Tool can be found [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 and Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 
 ## Table Bank
-
+Releasing soon
