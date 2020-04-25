@@ -6,8 +6,8 @@ The code of CascadeTabNet is released under the MIT License. There is no limitat
 ## Paper
 Link of Paper : The paper has been accepted at <b>CVPR2020 Workshop on Text and Documents in the Deep Learning Era</b> and preprint link will be available soon
 
-## End to End Dataset 
-We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 table competition (cTDaR)</a> dataset images for table cell detection in borderless tables while also categorizing tables into two classes (bordered and borderless) and will be releasing the annotations to the community. 
+## End to End Table Recognition Dataset 
+We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 table competition (cTDaR)</a> dataset images. Details about the dataset are mentioned in the paper. 
 <a href="https://drive.google.com/drive/folders/1mNDbbhu-Ubz87oRDjdtLA4BwQwwNOO-G?usp=sharing">dataset link</a>
 
 ## Introduction
@@ -20,18 +20,13 @@ We use <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> frame
 <a href="imgs/theonnx.onnx.svg">Model Computation Graph</a>
 
 ## Image Augmentation
-### 1. Original Image
-<img src="imgs/orig.jpg" width="350"/>
+<img src="imgs/3imgs.png" width="450"/>
 
-### 2. Dilation Transform
+### Dilation Transform
 <a href="">Code for dilation transform</a>
 
-<img src="imgs/dilate.jpg" width="350"/>
-
-### 3. Smudge Transform
+### Smudge Transform
 <a href="">Code for smudge transform</a>
-
-<img src="imgs/smudge.jpg" width="350"/>
 
 
 ## Benchmarking
@@ -79,7 +74,10 @@ Checkpoints of the Models we have trained :
   </tr>      
 </table>
 
-Whole code will be released soon in this repository
+## Additional Results
+<a href="results">Supplementary file</a>
+
+Whole code will be released soon in this repository !
 
 
 <!--## Citing
