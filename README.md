@@ -20,12 +20,8 @@ We use <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> frame
 <a href="imgs/theonnx.onnx.svg">Model Computation Graph</a>
 
 ## Image Augmentation
-<img src="imgs/3imgs.png" width="650"/>
-
-<a href="">Code for dilation transform</a>
-
-<a href="">Code for smudge transform</a>
-
+<img src="imgs/3imgs.png" width="750"/><br>
+Codes: <a href="">Code for dilation transform</a> <a href="">Code for smudge transform</a>
 
 ## Benchmarking
 ### Table Detection
@@ -78,13 +74,10 @@ Checkpoints of the Models we have trained :
 Whole code will be released soon in this repository !
 
 ## Contact
-Devashish Prasad : devashishkprasad [at] gmail [dot] com
-
-Ayan Gadpal : ayangadpal2 [at] gmail [dot] com
-
-Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com
-
-Manish Visave : manishvisave149 [at] gmail [dot] com
+Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
+Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
+Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
+Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
 <!--## Citing
 <pre>
