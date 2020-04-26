@@ -45,9 +45,9 @@ and Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 
 ## Table Bank
 
-Download train and test json files for word subset, latex subset and both_merged subset from [Here](https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O) <br>
-Set appropriate paths to of Words.json and Latex.json in script.<br>
-After setting paths simply run
+Download train and test json files for word subset, latex subset and both_merged subset from [Here](https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O) <br><br>
+Set appropriate paths to of Words.json and Latex.json in script.<br><br>
+After setting paths run
 
 ```
 python evaluation.py
