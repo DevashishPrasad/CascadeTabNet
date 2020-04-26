@@ -44,4 +44,10 @@ ICDAR 19 evalution Tool can be found [Here](https://github.com/cndplab-founder/I
 and Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 
 ## Table Bank
-Releasing soon
+Set appropriate paths to of Words.json and Latex.json in script.
+After setting paths simply run
+
+```
+python tableEval.py
+
+```
