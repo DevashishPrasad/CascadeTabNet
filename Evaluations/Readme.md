@@ -48,6 +48,6 @@ Set appropriate paths to of Words.json and Latex.json in script.
 After setting paths simply run
 
 ```
-python tableEval.py
+python evaluations.py
 
 ```
