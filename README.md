@@ -55,13 +55,13 @@ Checkpoints of the Models we have trained :
   <td>ICDAR 19 (Track A Modern) table detection</td><td><a href="https://drive.google.com/open?id=1vfUr4pmmI4GICZubAnBeFU8pviMUW_c9">Checkpoint</a></td>
   </tr>  
   <tr>
-  <td>Table Bank Word table detection</td><td>-</td>
+  <td>Table Bank Word table detection</td><td><a href="https://drive.google.com/open?id=1-ZnV84t61IrkAfQH7dOATpo_T4C1J4Qa">Checkpoint</a></td>
   </tr>    
   <tr>
   <td>Table Bank Latex table detection</td><td><a href="https://drive.google.com/open?id=1-9EzU_LfD6fE8iJFjOZ3nBsCObqhpNUa">Checkpoint</a></td>
   </tr>    
   <tr>
-  <td>Table Bank Both table detection</td><td>-</td>
+  <td>Table Bank Both table detection</td><td><a href="https://drive.google.com/open?id=1-vjfGRhF8kqvKwZPPFNwiTaOoonJlGgv">Checkpoint</a></td>
   </tr>      
   <tr>
   <td>ICDAR 19 (Track B2 Modern) table structure recognition</td><td><a href="https://drive.google.com/open?id=1-QieHkR1Q7CXuBu4fp3rYrvDG9j26eFT">Checkpoint</a></td>
@@ -69,7 +69,7 @@ Checkpoints of the Models we have trained :
 </table>
 
 ## Additional Results
-<a href="results">Supplementary file</a>
+<a href="results.pdf">Supplementary file</a>
 
 Whole code will be released soon in this repository !
 
