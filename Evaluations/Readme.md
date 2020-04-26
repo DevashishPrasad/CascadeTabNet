@@ -53,3 +53,4 @@ After setting paths run
 python evaluation.py
 
 ```
+Evaluation on tablebank is done using line correction on the model predictions.<br>
