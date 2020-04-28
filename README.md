@@ -4,7 +4,7 @@
 The code of CascadeTabNet is released under the MIT License. There is no limitation for both acadmic and commercial usage.
 
 ## Paper
-<a href="https://arxiv.org/abs/2004.12629">Preprint Link of Paper</a> : The paper has been accepted at <b>CVPR2020 Workshop on Text and Documents in the Deep Learning Era</b>
+<a href="https://arxiv.org/abs/2004.12629">Preprint Link of Paper</a> : The paper has been accepted at <b>CVPR 2020 Workshop </b>
 
 ## End to End Table Recognition Dataset 
 We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 table competition (cTDaR)</a> dataset images. Details about the dataset are mentioned in the paper. 
@@ -80,7 +80,7 @@ Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
 ## Acknowledgement
-The initial work was done under the guidance of Akshay Navalakha (AP Analytica)
+The initial work was inspired from the Automatic Invoice Parsing system developed for Akshay Navalakha (AP Analytica)
 
 ## Cite as
 <pre>
