@@ -45,24 +45,20 @@ and Dataset [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
 
 ## Table Bank
 
-
-
-
 Evaluation is carried out in following steps:
 
 1) Model Loading <br>
 2) For each image in test set <br>
-   
-   2.1) Extract ground truth for the corresponding image from annotations <br>
-   2.2) Pass the image to model to get its predictions <br>
-   2.3) After getting the predictions correct theses predictions using line correction technique <br>
-   2.4) Once the bounding boxes are corrected the necessary step is to map the ground truth bounding box to its appropriate predicted box. This is done using the euclidean distance.<br>
-   2.4) After mapping the ground truth to appropriate prediction calculate the IoU for these two boxes <br>
-   2.5) Using the IoU value calculate the precision and recall per object <br>
-   2.6) perform step 2.3 - 2.5 for each table in image <br>
-3) After calculating precision and recall for each table in every image calculate the average precision and recall to get final result.<br><br>
+   i) Extract ground truth for the corresponding image from annotations <br>
+   ii) Pass the image to model to get its predictions <br>
+   iii) Correct the predictions using line correction technique <br>
+   iv) Map the ground truth bounding box to its appropriate predicted box. This is done using the euclidean distance.<br>
+   v) Calculate the IoU for each pair of boxes (Ground-truth vs predicted) <br>
+   vi) Using the IoU value calculate the precision and recall per object <br>
+   vii) perform step iii) to v) for each table in image <br>
+3) Calculate the average precision and recall across all images to get the final result.<br><br>
 
-Above steps are coded in evaluation.py file.<br>
+Above steps are implemented in evaluation.py file.<br>
 
 Download train and test json files for word subset, latex subset and both_merged subset from [Here](https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O) <br><br>
 
