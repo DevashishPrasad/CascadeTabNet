@@ -60,7 +60,7 @@ Evaluation is carried out in following steps:
 
 Above steps are implemented in evaluation.py file.<br>
 
-Download train and test json files for word subset, latex subset and both_merged subset from [Here](https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O) <br><br>
+Download train and test json files for all of the three subsets (Latex, Word, Both) from [Here](https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O) <br><br>
 
 Set appropriate paths to of Words.json and Latex.json in script.<br><br>
 
