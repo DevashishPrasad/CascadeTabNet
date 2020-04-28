@@ -79,13 +79,14 @@ Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
 Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
-<!--## Citing
+## Cite as
 <pre>
-@article{
-  cascacadetabnet2020
-  authors = ""
-  title = ""
-  journal = ""
-  year = ""
+@misc{ cascadetabnet2020,
+    title={CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents},
+    author={Devashish Prasad and Ayan Gadpal and Kshitij Kapadni and Manish Visave and Kavita Sultanpure},
+    year={2020},
+    eprint={2004.12629},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
-</pre>-->
+</pre>
