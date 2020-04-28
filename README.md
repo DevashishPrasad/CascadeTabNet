@@ -33,6 +33,9 @@ Codes: <a href="">Code for dilation transform</a> <a href="">Code for smudge tra
 
 #### 3. TableBank
 <img src="imgs/tablebank.png" width="450"/>
+<br>
+TableBank Benchmarking : <a href="https://doc-analysis.github.io/">Leaderboard</a><br>
+TableBank Dataset Divisions : <a href="https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O">TableBank</a>
 
 ### Table Structure Recognition
 #### 1. ICDAR 19 (Track B2)
@@ -67,8 +70,6 @@ Checkpoints of the Models we have trained :
   <td>ICDAR 19 (Track B2 Modern) table structure recognition</td><td><a href="https://drive.google.com/open?id=1-QieHkR1Q7CXuBu4fp3rYrvDG9j26eFT">Checkpoint</a></td>
   </tr>      
 </table>
-<br>
-Table bank dataset divisions : <a href="https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O">TableBank</a>
 
 ## Additional Results
 <a href="results.pdf">Supplementary file</a>
