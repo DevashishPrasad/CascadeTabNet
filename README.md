@@ -79,6 +79,9 @@ Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
 Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
+## Acknowledgement
+The initial work was done under the guidance of Akshay Navalakha (AP Analytica)
+
 ## Cite as
 <pre>
 @misc{ cascadetabnet2020,
