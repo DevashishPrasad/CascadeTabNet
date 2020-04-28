@@ -83,7 +83,7 @@ Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
 ## Acknowledgement
-The initial work was inspired from the Automatic Invoice Parsing system we developed for Akshay Navalakha (AP Analytica)
+We thank Akshay Navalakha (AP Analytica) for his idea and guidance in the initial project of invoice-document parsing that we developed for him.
 
 ## Cite as
 <pre>
