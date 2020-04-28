@@ -63,8 +63,6 @@ def line_detection(image):
     for x1, y1, x2, y2 in hor_lines:
         cv2.line(image, (x1,y1-5), (x2,y2-5), (0, 255, 0), 1)
 
-    
-
     # cv2.imshow("image",image)
     # cv2.waitKey(0)
     
@@ -132,7 +130,6 @@ epochs = ['epoch_22.pth','epoch_23.pth','epoch_24.pth','epoch_25.pth','epoch_26.
 # Testing Images
 # img_files = glob.glob("/content/drive/My Drive/TableBank/tablebank_both_augment/*.*")
 
-
 #test json for word subset images . If you are using latex test subset then provide path for respective test json file
 with open('/content/drive/My Drive/TableBank/word_test.json') as f:
 	data = json.load(f)
@@ -151,21 +148,14 @@ for epoch in epochs:
 
 		# build the model from a config file and a checkpoint file
 		model = init_detector(config_fname, checkpoint_file_path)
-		#{dict_keys(['info', 'licenses', 'images', 'categories', 'annotations'])}
-		#{'file_name': '1401.0007_15.jpg', 'id': 1, 'license': 1, 'width': 596, 'height': 842}
-		#{'segmentation': [[85, 396, 85, 495, 510, 495, 510, 396]], 'area': 42075, 'image_id': 1, 'category_id': 1, 'id': 1, 'iscrowd': 0, 'bbox': [85, 396, 425, 99]}
+		
 		#List to store ground truth values	
 		gt_boxes = []
 		idx = 0
 		t=0
 		#Iterating over all the images
 		for i in data['images']:
-			# print(i)
 			idx+=1        
-			# if(idx <= 500):
-			# 	continue
-			# if(idx > 1502):
-			# 	break
 		
 			image_name = "/content/drive/My Drive/TableBank/tablebank_word/"+str(i['file_name'])
 			#Reading Image
@@ -184,7 +174,7 @@ for epoch in epochs:
 			#Detecting horizontal and vertical lines in table image 	
 			hor,ver = line_detection(iii)
 
-			# LINE CORRECTION
+			# =================== APPLY LINE CORRECTION ==================
 			if(hor is not None and ver is not None):
 				#For each detected table in image correct the lines
 				for r in result[0][0]:
@@ -217,7 +207,7 @@ for epoch in epochs:
 					if(xmax != 9999):        
 						r[2] = xmax    
 
-				# BACK TO NORMAL 
+				# ============== LINE CORRECTION END ================ 
 
 			d_bboxes = np.vstack(result)
 			#Getting ground truth for tables in image 
@@ -288,6 +278,6 @@ for epoch in epochs:
 	#Saving the results in file
 	saver = "\n {} {} {}".format(avg_precision,avg_recall,f1_score)
 	print(saver)
-	my_file = open("/content/drive/My Drive/againwordfile.txt", "a")
+	my_file = open("path-to-random-log-file.txt", "a")
 	my_file.write(saver)
 	my_file.close()
