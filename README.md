@@ -67,11 +67,13 @@ Checkpoints of the Models we have trained :
   <td>ICDAR 19 (Track B2 Modern) table structure recognition</td><td><a href="https://drive.google.com/open?id=1-QieHkR1Q7CXuBu4fp3rYrvDG9j26eFT">Checkpoint</a></td>
   </tr>      
 </table>
+<br>
+Table bank dataset divisions : <a href="https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O">TableBank</a>
 
 ## Additional Results
 <a href="results.pdf">Supplementary file</a>
 
-Whole code will be released soon in this repository !
+The whole code will be released soon in this repository !
 
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
