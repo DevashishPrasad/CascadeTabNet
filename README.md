@@ -1,4 +1,4 @@
-# CascadeTabNet
+O# CascadeTabNet
 
 ## License
 The code of CascadeTabNet is released under the MIT License. There is no limitation for both acadmic and commercial usage.
@@ -77,7 +77,7 @@ Checkpoints of the Models we have trained :
 The whole code will be released soon in this repository !
 
 ## Contact
-Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
+Devashish Prasad : devashishkprasad@gmail.com <br>
 Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
 Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
