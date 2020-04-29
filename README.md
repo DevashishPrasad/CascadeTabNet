@@ -1,4 +1,4 @@
-O# CascadeTabNet
+# CascadeTabNet
 
 ## License
 The code of CascadeTabNet is released under the MIT License. There is no limitation for both acadmic and commercial usage.
@@ -78,9 +78,9 @@ The whole code will be released soon in this repository !
 
 ## Contact
 Devashish Prasad : devashishkprasad@gmail.com <br>
-Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
-Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
-Manish Visave : manishvisave149 [at] gmail [dot] com <br>
+Ayan Gadpal : ayangadpal2@gmail.com <br>
+Kshitij Kapadni : kshitij.kapadni@gmail.com <br>
+Manish Visave : manishvisave149@gmail.com <br>
 
 ## Acknowledgement
 We thank Akshay Navalakha (AP Analytica) for his idea and guidance in the initial project of invoice-document parsing that we developed for him.
