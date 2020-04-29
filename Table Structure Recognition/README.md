@@ -1,7 +1,8 @@
 # Table Structure Recognition(TSR)
 
-## For Bordered Tables code is released. We will update the borderless soon
+### **For Bordered Tables code is released. We will update the borderless soon
 
+## TSR Pipeline
 ![TSR Pipeline](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/Pipeline.PNG)
 
 ## Bordered Pipeline
