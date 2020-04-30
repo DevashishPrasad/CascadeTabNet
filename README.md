@@ -21,7 +21,7 @@ We use <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> frame
 
 ## Image Augmentation
 <img src="imgs/3imgs.png" width="750"/><br>
-Codes: <a href="">Code for dilation transform</a> <a href="">Code for smudge transform</a>
+Codes: <a href="https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Data%20Preparation/Dilation.py">Code for dilation transform</a> <a href="https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Data%20Preparation/Smudge.py">Code for smudge transform</a>
 
 ## Benchmarking
 ### Table Detection
