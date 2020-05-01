@@ -6,15 +6,15 @@ import numpy as np
 def line_detection(image):
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 17, 1)
+    bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 15, 1)
     bw = cv2.bitwise_not(bw)
     ## To visualize image after thresholding ##
-    # cv2.imshow(bw)
-    # cv2.waitKey(0)
+    cv2.imshow("bw",bw)
+    cv2.waitKey(0)
     ###########################################
     horizontal = bw.copy()
     vertical = bw.copy()
-
+    img = image.copy()
     # [horizontal lines]
     # Create structure element for extracting horizontal lines through morphology operations
     horizontalStructure = cv2.getStructuringElement(cv2.MORPH_RECT, (15, 1))
@@ -25,6 +25,10 @@ def line_detection(image):
 
     horizontal = cv2.dilate(horizontal, (1,1), iterations=5)
     horizontal = cv2.erode(horizontal, (1,1), iterations=5)
+
+    ## Uncomment to visualize highlighted Horizontal lines
+    # cv2.imshow("horizontal",horizontal)
+    # cv2.waitKey(0)
 
     # HoughlinesP function to detect horizontal lines
     hor_lines = cv2.HoughLinesP(horizontal,rho=1,theta=np.pi/180,threshold=100,minLineLength=30,maxLineGap=3)
@@ -62,14 +66,12 @@ def line_detection(image):
         else:
             if (i != 0 and len(lines_x1) is not 0):
                 hor.append([min(lines_x1),lasty1,max(lines_x2),lasty1])
-                cv2.line(image, (min(lines_x1), lasty1), (max(lines_x2), lasty1), (0, 255, 0), 1)
             lasty1 = y1
             lines_x1 = []
             lines_x2 = []
             lines_x1.append(x1)
             lines_x2.append(x2)
             i+=1
-    cv2.line(image, (min(lines_x1), lasty1), (max(lines_x2), lasty1), (0, 255, 0), 1)
     hor.append([min(lines_x1),lasty1,max(lines_x2),lasty1])
     #####################################################################
 
@@ -85,12 +87,14 @@ def line_detection(image):
     vertical = cv2.dilate(vertical, (1,1), iterations=8)
     vertical = cv2.erode(vertical, (1,1), iterations=7)
 
-    # cv2_imshow(vertical)
+    ######## Preprocessing Vertical Lines ###############
+    # cv2.imshow("vertical",vertical)
     # cv2.waitKey(0)
+    #####################################################
 
     # HoughlinesP function to detect vertical lines
-    ver_lines = cv2.HoughLinesP(vertical,rho=1,theta=np.pi/180,threshold=20,minLineLength=15,maxLineGap=2)
-    #ver_lines = cv2.HoughLinesP(vertical, 1, np.pi/180, 20, np.array([]), 15, 2)
+    # ver_lines = cv2.HoughLinesP(vertical,rho=1,theta=np.pi/180,threshold=20,minLineLength=20,maxLineGap=2)
+    ver_lines = cv2.HoughLinesP(vertical, 1, np.pi/180, 20, np.array([]), 20, 2)
     if ver_lines is None:
         return None,None
     temp_line = []
@@ -104,7 +108,7 @@ def line_detection(image):
     ## Uncomment this part to visualize the lines detected on the image ##
     # print(len(ver_lines))
     # for x1, y1, x2, y2 in ver_lines:
-    #     cv2.line(image, (x1,y1-5), (x2,y2-5), (0, 255, 0), 2)
+    #     cv2.line(image, (x1,y1-5), (x2,y2-5), (0, 255, 0), 1)
 
     
     # print(image.shape)
@@ -129,7 +133,6 @@ def line_detection(image):
         else:
             if (count != 0 and len(lines_y1) is not 0):
                 ver.append([lastx1,min(lines_y2)-5,lastx1,max(lines_y1)-5])
-                cv2.line(image, (lastx1, min(lines_y2)-5), (lastx1, max(lines_y1)-5), (0, 255, 0), 1)
             lastx1 = x1
             lines_y1 = []
             lines_y2 = []
@@ -138,11 +141,21 @@ def line_detection(image):
             count += 1
             lasty1 = -11111
             lasty2 = -11111
-    cv2.line(image, (lastx1,min(lines_y2)-5), (lastx1,max(lines_y1)-5), (0, 255, 0), 1)
     ver.append([lastx1,min(lines_y2)-5,lastx1,max(lines_y1)-5])
     #################################################################
 
-    # cv2_imshow(image)
+
+    ############ Visualization of Lines After Post Processing ############
+    # for x1, y1, x2, y2 in ver:
+    #     cv2.line(img, (x1,y1), (x2,y2), (0, 255, 0), 1)
+
+    # for x1, y1, x2, y2 in hor:
+    #     cv2.line(img, (x1,y1), (x2,y2), (0, 255, 0), 1)
+    
+    # cv2.imshow("image",img)
     # cv2.waitKey(0)
+    #######################################################################
 
     return hor,ver
+
+# line_detection(cv2.imread('path to image'))
