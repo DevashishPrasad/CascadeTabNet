@@ -28,4 +28,52 @@ The <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%2
 ### 1. Line Detection
 Refer this Documentation for Line Detection : https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html
 
-Line Detection was performed using the Houghlinesp function of opencv and refering to the original documentaion. We have provided <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/Functions/line_detection.py > line detection</a> with all the parameters already set which works better for tables. 
+Line Detection was performed using the Houghlinesp function of opencv and refering to the original documentaion. We have provided <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/Functions/line_detection.py > line detection</a> with all the parameters already set which works better for tables. This script has a line_detection() function which takes image as a parameter and returns (array or horizontal lines, array of vertical lines).
+
+For Eg:
+![border table](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/table.PNG)
+
+#### Preprocessing  
+```
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 17, 1)
+bw = cv2.bitwise_not(bw)
+```
+![preprocessing](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/preprocessing.PNG)
+
+#### Horizontal Lines
+Before moving towards line detection, it is nercessary to highlight horizontal lines in the image to make horizontal line detection easier. In order to do that, some morphological operation are applied to the image.
+
+```
+horizontalStructure = cv2.getStructuringElement(cv2.MORPH_RECT, (15, 1))
+
+horizontal = cv2.erode(bw, horizontalStructure)
+horizontal = cv2.dilate(horizontal, horizontalStructure)
+
+horizontal = cv2.dilate(horizontal, (1,1), iterations=5)
+horizontal = cv2.erode(horizontal, (1,1), iterations=5)
+```
+![horizontal](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/horizontal.PNG)
+
+#### Vertical Lines
+Similar morphological operations need to be performed on the image for Vertical lines.
+
+```
+horizontalStructure = cv2.getStructuringElement(cv2.MORPH_RECT, (15, 1))
+
+horizontal = cv2.erode(bw, horizontalStructure)
+horizontal = cv2.dilate(horizontal, horizontalStructure)
+
+horizontal = cv2.dilate(horizontal, (1,1), iterations=5)
+horizontal = cv2.erode(horizontal, (1,1), iterations=5)
+```
+![vertical](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/vertical.PNG)
+
+#### Lines Detected 
+
+![Lines](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/lines_detected.PNG)
+
+As we can observe the lines are very well detected but multiples lines are detected at the same location.So, further post processing is applied to remove the detection of multiple lines.
+
+After Postprocessing:
+![postprocessing](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/postprocessing.PNG)
