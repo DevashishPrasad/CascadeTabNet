@@ -31,7 +31,7 @@ Refer this Documentation for Line Detection : https://docs.opencv.org/3.4/d9/db0
 Line Detection was performed using the Houghlinesp function of opencv and refering to the original documentaion. We have provided <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/Functions/line_detection.py > line detection</a> with all the parameters already set which works better for tables. This script has a line_detection() function which takes image as a parameter and returns (array or horizontal lines, array of vertical lines).
 
 For Eg:
-![border table](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/FInal_lineDetection.PNG)
+![border table](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/FInal_lineDetection.png)
 <!--![border table](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/table.PNG)-->
 
 #### Preprocessing  
