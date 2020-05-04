@@ -45,7 +45,7 @@ for count,i in enumerate(img_files):
   # In order to save as jpg, or png, we need to handle the Data
   # format of image
   data = dist.astype(np.float64) / 4.0
-  data = 1800 * data # Now scale by 255
+  data = 255.0 * data # Now scale by 255
   dist = data.astype(np.uint16)
 
   # Save to destination
