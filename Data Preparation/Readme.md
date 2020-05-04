@@ -15,3 +15,5 @@ Then simply run
 python Smudge.py
 
 ```
+# More
+More Document specific Augmentation Techniques can be found [Here](https://github.com/AyanGadpal/Document-Image-Augmentation)
