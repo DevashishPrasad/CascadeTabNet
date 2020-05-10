@@ -13,7 +13,7 @@ We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 t
 ## Introduction
 CascadTabNet is an automatic table recognition method for interpretation of tabular data in document images. We present an improved deep learning-based end to end approach for solving both problems of table detection and structure recognition using a single Convolution Neural Network (CNN) model. CascadeTabNet is a Cascade mask Region-based CNN High-Resolution Network (Cascade mask R-CNN HRNet) based model that detects the regions of tables and recognizes the structural body cells from the detected tables at the same time. We evaluate our results on ICDAR 2013, ICDAR 2019 and TableBank public datasets. We achieved 3rd rank in ICDAR 2019 post-competition results for table detection while attaining the best accuracy results for the ICDAR 2013 and TableBank dataset. We also attain the highest accuracy results on the ICDAR 2019 table structure recognition dataset. 
 
-We use <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> framework to implement the model.
+<b>All the models are implemented in Pytorch based <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> framework (Version 1.2)</b>
 
 ## Model Architecture
 <img src="imgs/model arch.png" width="550"/>
