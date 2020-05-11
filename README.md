@@ -1,30 +1,41 @@
 # CascadeTabNet
 
-## License
+## I. License
 The code of CascadeTabNet is released under the MIT License. There is no limitation for both acadmic and commercial usage.
 
-## Paper
+## II. Paper
 <a href="https://arxiv.org/abs/2004.12629">Preprint Link of Paper</a> : The paper has been accepted at <b>CVPR 2020 Workshop </b>
 
-## End to End Table Recognition Dataset 
+## III. End to End Table Recognition Dataset 
 We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 table competition (cTDaR)</a> dataset images. Details about the dataset are mentioned in the paper. 
 <a href="https://drive.google.com/drive/folders/1mNDbbhu-Ubz87oRDjdtLA4BwQwwNOO-G?usp=sharing">dataset link</a>
 
-## Introduction
+## 1. Introduction
 CascadTabNet is an automatic table recognition method for interpretation of tabular data in document images. We present an improved deep learning-based end to end approach for solving both problems of table detection and structure recognition using a single Convolution Neural Network (CNN) model. CascadeTabNet is a Cascade mask Region-based CNN High-Resolution Network (Cascade mask R-CNN HRNet) based model that detects the regions of tables and recognizes the structural body cells from the detected tables at the same time. We evaluate our results on ICDAR 2013, ICDAR 2019 and TableBank public datasets. We achieved 3rd rank in ICDAR 2019 post-competition results for table detection while attaining the best accuracy results for the ICDAR 2013 and TableBank dataset. We also attain the highest accuracy results on the ICDAR 2019 table structure recognition dataset. 
 
-<b>All the models are implemented in Pytorch based <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> framework (Version 1.2)</b>
+## 2. Setup
+<b>We have developed models in Pytorch based <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> framework (Version 1.2)</b>
+<br>
+The code was developed under following library dependencies <br>
 
-## Model Architecture
+PyTorch = 1.4.0<br>
+Torchvision = 0.5.0<br>
+Cuda = 10.0<br>
+
+<pre>
+!pip install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f https://download.pytorch.org/whl/torch_stable.html
+</pre>
+
+## 3. Model Architecture
 <img src="imgs/model arch.png" width="550"/>
 <a href="imgs/theonnx.onnx.svg">Model Computation Graph</a>
 
-## Image Augmentation
+## 4. Image Augmentation
 <img src="imgs/3imgs.png" width="750"/><br>
 Codes: <a href="https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Data%20Preparation/Dilation.py">Code for dilation transform</a> <a href="https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Data%20Preparation/Smudge.py">Code for smudge transform</a>
 
-## Benchmarking
-### Table Detection
+## 5. Benchmarking
+### 5.1. Table Detection
 #### 1. ICDAR 13
 <img src="imgs/ICDAR 13.png" width="450"/>
 
@@ -37,11 +48,11 @@ Codes: <a href="https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Dat
 <b>TableBank Benchmarking</b> : <a href="https://doc-analysis.github.io/">Leaderboard</a><br>
 TableBank Dataset Divisions : <a href="https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O">TableBank</a>
 
-### Table Structure Recognition
+### 5.2. Table Structure Recognition
 #### 1. ICDAR 19 (Track B2)
 <img src="imgs/TSR.png" width="450"/>
 
-## Model Zoo
+## 6. Model Zoo
 Checkpoints of the Models we have trained : 
 
 <table>
@@ -71,10 +82,12 @@ Checkpoints of the Models we have trained :
   </tr>      
 </table>
 
-## Additional Results
+## 7. Additional Results
 <a href="results.pdf">Supplementary file</a>
 
-The whole code will be released soon in this repository !
+## 8. Upcoming Updates 
+1. Table Structure Recognition borderless code<br>
+2. Mmdetection 1.2 Config files <br>
 
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
