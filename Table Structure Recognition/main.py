@@ -1,6 +1,7 @@
 from border import border
 from mmdet.apis import inference_detector, show_result, init_detector
 import cv2
+from Functions.borderFunc import borderless
 import lxml.etree as etree
 import glob
 
