@@ -43,11 +43,11 @@ for i in imgs:
         ## call border script for each table in image
         for res in res_border:
             root.append(border(res,cv2.imread(i)))  
-    # if len(res_bless) != 0:
-    #     if len(res_cell) != 0:
-    #         for no,res in enumerate(res_bless):
-    #             # borderless(res,cv2.imread(i),res_cell)
-    #             root.append(borderless(res,cv2.imread(i),res_cell))
+    if len(res_bless) != 0:
+        if len(res_cell) != 0:
+            for no,res in enumerate(res_bless):
+                # borderless(res,cv2.imread(i),res_cell)
+                root.append(borderless(res,cv2.imread(i),res_cell))
 
     myfile = open(xmlPath+i.split('/')[-1][:-3]+'xml', "w")
     myfile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
