@@ -1,5 +1,5 @@
 import cv2
-from line_detection import line_detection
+from Functions.line_detection import line_detection
 
 ##################  Functions required for Border table Recognition #################
 
@@ -25,7 +25,11 @@ def extract_table(table_body,__line__,lines=None):
     else:
         temp_lines_hor, temp_lines_ver = lines
 
-    # table = table_body.copy()		
+    if len(temp_lines_hor)==0 or len(temp_lines_ver)==0:
+        print("Either Horizontal Or Vertical Lines Not Detected")
+        return None
+
+    table = table_body.copy()		
     x = 0
     y = 0
     k = 0
@@ -42,6 +46,13 @@ def extract_table(table_body,__line__,lines=None):
             except:
                 continue
         points.append(point)
+
+    for point in points:
+        for x,y in point:
+            cv2.line(table,(x,y),(x,y),(0,0,255),8)
+
+    cv2.imshow("intersection",table)
+    cv2.waitKey(0)
 
     # boxno = -1
     box = []
@@ -108,7 +119,7 @@ def extract_table(table_body,__line__,lines=None):
     # cv2.waitKey(0)
     ############################
     return box
-
+# extract_table(cv2.imread("E:\\KSK\\KSK ML\\KSK PAPERS\\TabXNet\\For Git\\images\\table.PNG"),1,lines=None)
 
 
 def findX(X,x):
