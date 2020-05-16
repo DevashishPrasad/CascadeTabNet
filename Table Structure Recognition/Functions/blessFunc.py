@@ -1,3 +1,6 @@
+import numpy as np
+import cv2
+from Functions.borderFunc import extract_table
 ## Input : roi of one cell
 ## Output : bounding box for the text in that cell
 def extractTextBless(img):
