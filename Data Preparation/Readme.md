@@ -1,5 +1,8 @@
 # Dialation
-    Releasing Soon
+    In the dilation transform, we transform the original image
+to thicken the black pixel regions. We convert the original images into binary images before applying the dilation
+transform.
+![Dialation Algorithm](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/imgs/Dialation.png)
 # Smudge
 
 ## Flow Diagram 

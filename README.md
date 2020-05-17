@@ -1,12 +1,16 @@
 # CascadeTabNet
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cascadetabnet-an-approach-for-end-to-end/table-detection-on-icdar2013-1)](https://paperswithcode.com/sota/table-detection-on-icdar2013-1?p=cascadetabnet-an-approach-for-end-to-end)
+> **CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents**<br>
+> [Devashish Prasad](https://github.com/DevashishPrasad),
+> [Ayan Gadpal](https://github.com/ayangadpal),
+> [Kshitij Kapadni](https://github.com/kshitijkapadni),
+> [Manish Visave](https://github.com/ManishDV),
+> <br>
+> [Preprint Link of Paper](https://arxiv.org/abs/2004.12629)<br>
+> The paper has been accepted at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
+> 
 
-## I. License
-The code of CascadeTabNet is released under the MIT License. There is no limitation for both academic and commercial usage.
-
-## II. Paper
-<a href="https://arxiv.org/abs/2004.12629">Preprint Link of Paper</a> : The paper has been accepted at <b><a href="https://cvpr2020text.wordpress.com/">CVPR 2020 Workshop on Text and Documents in the Deep Learning Era</a></b>
-
-## III. End to End Table Recognition Dataset 
+## End to End Table Recognition Dataset 
 We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 table competition (cTDaR)</a> dataset images. Details about the dataset are mentioned in the paper. 
 <a href="https://drive.google.com/drive/folders/1mNDbbhu-Ubz87oRDjdtLA4BwQwwNOO-G?usp=sharing">dataset link</a>
 
@@ -20,12 +24,12 @@ CascadTabNet is an automatic table recognition method for interpretation of tabu
 <br>
 
 <pre>
-!pip install -q mmcv terminaltables
-!git clone --branch v1.2.0 'https://github.com/open-mmlab/mmdetection.git'
-%cd "mmdetection"
-!python setup.py install
-!python setup.py develop
-!pip install -r {"requirements.txt"}
+pip install -q mmcv terminaltables
+git clone --branch v1.2.0 'https://github.com/open-mmlab/mmdetection.git'
+cd "mmdetection"
+python setup.py install
+python setup.py develop
+pip install -r {"requirements.txt"}
 </pre>
 
 <b>Code is developed under following library dependencies</b> <br>
@@ -35,8 +39,14 @@ Torchvision = 0.5.0<br>
 Cuda = 10.0<br>
 
 <pre>
-!pip install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f https://download.pytorch.org/whl/torch_stable.html
 </pre>
+
+**If you are using Google Colaboratory (Colab), Then you need add**
+```
+from google.colab.patches import cv2_imshow
+```
+and replace all the `cv2.imshow` with `cv2_imshow`
 
 ## 3. Model Architecture
 <img src="imgs/model arch.png" width="550"/>
@@ -67,8 +77,8 @@ TableBank Dataset Divisions : <a href="https://drive.google.com/open?id=1lxpK4sa
 ## 6. Model Zoo
 Config file for the Models :
 
-<a href="Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py/">cascade_mask_rcnn_hrnetv2p_w32_20e.py</a>
-
+<a href="Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py/">cascade_mask_rcnn_hrnetv2p_w32_20e.py</a><br>
+Note: Config paths are only required to change during training
 
 Checkpoints of the Models we have trained : 
 
@@ -108,8 +118,12 @@ Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
 Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
+## License
+The code of CascadeTabNet is released under the MIT License. There is no limitation for both academic and commercial usage.
+
 ## Cite as
-<pre>
+If you find this work useful for your research, please cite our paper:
+```
 @misc{ cascadetabnet2020,
     title={CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents},
     author={Devashish Prasad and Ayan Gadpal and Kshitij Kapadni and Manish Visave and Kavita Sultanpure},
@@ -118,5 +132,4 @@ Manish Visave : manishvisave149 [at] gmail [dot] com <br>
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-</pre>
-
+```

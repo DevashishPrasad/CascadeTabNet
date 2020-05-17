@@ -38,6 +38,27 @@ python eval.py
 ```
 to get result 
 
+### Train/Test split for ICDAR 13
+**Train**
+```
+eu-003
+eu-015
+eu-020
+us-018
+us-019
+us-034
+us-009
+us-015
+us-017
+us-036
+us-033
+us-032
+us-028
+us-022
+```
+**Test**<br>
+Rest of PDFs are used for testing
+
 ## ICDAR 19
 
 ICDAR 19 evalution Tool can be found [Here](https://github.com/cndplab-founder/ICDAR2019_cTDaR)
