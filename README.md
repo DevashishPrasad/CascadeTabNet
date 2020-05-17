@@ -102,10 +102,6 @@ Checkpoints of the Models we have trained :
 ## 7. Additional Results
 <a href="results.pdf">Supplementary file</a>
 
-## 8. Upcoming Updates 
-1. Table Structure Recognition borderless code<br>
-2. <strike>Mmdetection 1.2 Config files</strike> <br>
-
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
 Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
