@@ -26,6 +26,8 @@ For bordered table images, the most important feature is that it contains lines 
 The <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/Functions/BorderFunc.py > BorderFunc.py </a> file contains all the necessary functions that are required for the bordered pipeline. This file is imported in <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/border.py> border.py </a> file which is the handler for whole bordered pipeline. This handler returns XML structure of a single table to <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/main.py> main.py </a> file which is the handler for TSR Module.
 
 ### 1. Line Detection
+** In order to get better line detection results it is required to keep a gap of 15 pixels from the border of the table. If the table is located to close to the border of the page this will result in negative values of the table. It is favourable to pad the whole image with 10 pixels before passing it through the pipeline.**
+
 Refer this Documentation for Line Detection : https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html
 
 Line Detection was performed using the Houghlinesp function of opencv and refering to the original documentaion. We have provided <a href=https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/Functions/line_detection.py > line detection</a> with all the parameters already set which works better for tables. This script has a line_detection() function which takes image as a parameter and returns (array or horizontal lines, array of vertical lines).
