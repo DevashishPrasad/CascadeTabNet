@@ -109,8 +109,9 @@ Checkpoints of the Models we have trained :
   </tr>      
 </table>
 
-## 7. Additional Results
-<a href="results.pdf">Supplementary file</a>
+## 7. Additional Resources
+You may refer this <a href="https://www.dlology.com/blog/how-to-train-an-object-detection-model-with-mmdetection/">tutorial</a> for training Mmdetection models on your custom datasets in colab.<br>
+<a href="results.pdf">Supplementary file</a> having useful links and results
 
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
