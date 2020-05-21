@@ -1,5 +1,8 @@
 # CascadeTabNet
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cascadetabnet-an-approach-for-end-to-end/table-detection-on-icdar2013-1)](https://paperswithcode.com/sota/table-detection-on-icdar2013-1?p=cascadetabnet-an-approach-for-end-to-end)
+[![PWC](https://img.shields.io/badge/PyTorch-v1.4-blue)](https://pytorch.org/)
+[![PWC](https://img.shields.io/badge/MmDetection-v1.2-blue)](https://github.com/open-mmlab/mmdetection)
+
 > **CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents**<br>
 > [Devashish Prasad](https://github.com/DevashishPrasad),
 > [Ayan Gadpal](https://github.com/ayangadpal),
@@ -7,6 +10,7 @@
 > [Manish Visave](https://github.com/ManishDV),
 > <br>
 > [Preprint Link of Paper](https://arxiv.org/abs/2004.12629)<br>
+> <a href="results.pdf">Supplementary file</a> <br>
 > The paper has been accepted at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
 > 
 
@@ -109,9 +113,9 @@ Checkpoints of the Models we have trained :
   </tr>      
 </table>
 
-## 7. Additional Resources
+## 7. Training
 You may refer this <a href="https://www.dlology.com/blog/how-to-train-an-object-detection-model-with-mmdetection/">tutorial</a> for training Mmdetection models on your custom datasets in colab.<br>
-<a href="results.pdf">Supplementary file</a> having useful links and results
+having useful links and results
 
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
