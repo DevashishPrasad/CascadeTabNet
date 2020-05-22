@@ -46,10 +46,10 @@ def border(table,image):
             cell.set("start-col",str(start_col))
             cell.set("start-row",str(start_row))
 
-            one = str(cellBox[0]+box[0]-10)+","+str(cellBox[1]+box[1]-10)
-            two = str(cellBox[0]+box[0]-10)+","+str(cellBox[3]+box[1]-10)
-            three = str(cellBox[2]+box[0]-10)+","+str(cellBox[3]+box[1]-10)
-            four = str(cellBox[2]+box[0]-10)+","+str(cellBox[1]+box[1]-10)
+            one = str(cellBox[0]+box[0])+","+str(cellBox[1]+box[1])
+            two = str(cellBox[0]+box[0])+","+str(cellBox[3]+box[1])
+            three = str(cellBox[2]+box[0])+","+str(cellBox[3]+box[1])
+            four = str(cellBox[2]+box[0])+","+str(cellBox[1]+box[1])
 
             coords = etree.Element("Coords", points=one+" "+two+" "+three+" "+four)
 
