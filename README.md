@@ -13,6 +13,7 @@
 > <a href="results.pdf">Supplementary file</a> <br>
 > The paper has been accepted at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
 > 
+<img align="right" src="imgs/CVPR Teaser.gif" />
 
 ## End to End Table Recognition Dataset 
 We manually annotated some of the <a href="http://sac.founderit.com/">ICDAR 19 table competition (cTDaR)</a> dataset images. Details about the dataset are mentioned in the paper. 
