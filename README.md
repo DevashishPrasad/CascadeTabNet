@@ -1,7 +1,7 @@
 # CascadeTabNet
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cascadetabnet-an-approach-for-end-to-end/table-detection-on-icdar2013-1)](https://paperswithcode.com/sota/table-detection-on-icdar2013-1?p=cascadetabnet-an-approach-for-end-to-end)
 [![PWC](https://img.shields.io/badge/PyTorch-v1.4-blue)](https://pytorch.org/)
-[![PWC](https://img.shields.io/badge/MmDetection-v1.2-blue)](https://github.com/open-mmlab/mmdetection)
+[![PWC](https://img.shields.io/badge/%20mmdetection%20-v1.2-blue)](https://github.com/open-mmlab/mmdetection)
 
 > **CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents**<br>
 > [Devashish Prasad](https://github.com/DevashishPrasad),
