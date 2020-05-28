@@ -76,13 +76,10 @@ TableBank Dataset Divisions : <a href="https://drive.google.com/open?id=1lxpK4sa
 <img src="imgs/TSR.png" width="450"/>
 
 ## 6. Model Zoo
-Config file for the Models :
-
-<a href="Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py/">cascade_mask_rcnn_hrnetv2p_w32_20e.py</a><br>
-Note: Config paths are only required to change during training
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lzjbBQsF4X2C2WZhxBJz0wFEQor7F-fv?usp=sharing)<br>
+[Config file](Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py) for the Models<br>
+*Note: Config paths are only required to change during training*<br>
 Checkpoints of the Models we have trained : 
-
 <table>
   <tr>
   <th>Model Name</th><th>Checkpoint File</th>
@@ -122,7 +119,6 @@ We manually corrected the annotations of Marmot and <a href="https://github.com/
 
 ## 8. Training
 You may refer this <a href="https://www.dlology.com/blog/how-to-train-an-object-detection-model-with-mmdetection/">tutorial</a> for training Mmdetection models on your custom datasets in colab.<br>
-having useful links and results
 
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
@@ -130,8 +126,24 @@ Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
 Kshitij Kapadni : kshitij.kapadni [at] gmail [dot] com <br>
 Manish Visave : manishvisave149 [at] gmail [dot] com <br>
 
+## Acknowledgements
+
+We thank the following contributions because of which
+the paper was made possible
+
+1. The **MMdetection** project team for creating the amazing framework to push the state of the art computer vision
+research and which enabled us to experiment and build state of the art models very easily.
+
+2. Our college **”Pune Institute of Computer Technology”** for funding our research and giving us the opportunity to work and publish our research at an international conference.
+
+3. **<a href="http://chenkai.site/">Kai Chen</a>** for endorsing our paper on the arXiv to publish a pre-print of the paper and also for maintaining the Mmdetection repository along with the team.
+
+4. **AP Analytica** for making us aware about a similar problem statement and giving us an opportunity to work on the same.
+
+5. **Overleaf.com** for open sourcing the wonderful project which enabled us to write the research paper easily in the latex format
+
 ## License
-The code of CascadeTabNet is released under the MIT License. There is no limitation for both academic and commercial usage.
+The code of CascadeTabNet is Open Source under the [MIT License](LICENSE.md)
 
 ## Cite as
 If you find this work useful for your research, please cite our paper:
