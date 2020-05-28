@@ -76,7 +76,7 @@ TableBank Dataset Divisions : <a href="https://drive.google.com/open?id=1lxpK4sa
 <img src="imgs/TSR.png" width="450"/>
 
 ## 6. Model Zoo
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lzjbBQsF4X2C2WZhxBJz0wFEQor7F-fv?usp=sharing)<br>
+Checkout our demo notebook for loadind checkpoints and performing inference <br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lzjbBQsF4X2C2WZhxBJz0wFEQor7F-fv?usp=sharing)<br>
 [Config file](Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py) for the Models<br>
 *Note: Config paths are only required to change during training*<br>
 Checkpoints of the Models we have trained : 
