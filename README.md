@@ -120,6 +120,8 @@ We manually corrected the annotations of Marmot and <a href="https://github.com/
 ## 8. Training
 You may refer this <a href="https://www.dlology.com/blog/how-to-train-an-object-detection-model-with-mmdetection/">tutorial</a> for training Mmdetection models on your custom datasets in colab.<br>
 
+You may refer this <a href="/Data Preparation/generateVOC2JSON.py">script</a> to convert your Pascal VOC XML annotation files to a single COCO Json file.
+
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
 Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
@@ -138,12 +140,14 @@ research and which enabled us to experiment and build state of the art models ve
 
 3. **<a href="http://chenkai.site/">Kai Chen</a>** for endorsing our paper on the arXiv to publish a pre-print of the paper and also for maintaining the Mmdetection repository along with the team.
 
-4. **AP Analytica** for making us aware about a similar problem statement and giving us an opportunity to work on the same.
+4. **Google Colaboratory** team for providing free high end GPU resources for research and development. All of the code base was developed using Google colab and couldn't be possible without it.
 
-5. **Overleaf.com** for open sourcing the wonderful project which enabled us to write the research paper easily in the latex format
+5. **AP Analytica** for making us aware about a similar problem statement and giving us an opportunity to work on the same.
+
+6. **Overleaf.com** for open sourcing the wonderful project which enabled us to write the research paper easily in the latex format
 
 ## License
-The code of CascadeTabNet is Open Source under the [MIT License](LICENSE.md)
+The code of CascadeTabNet is Open Source under the [MIT License](LICENSE.md). There is no limitation for both acadmic and commercial usage.
 
 ## Cite as
 If you find this work useful for your research, please cite our paper:
