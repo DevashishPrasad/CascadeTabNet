@@ -9,10 +9,11 @@
 > [Kshitij Kapadni](https://github.com/kshitijkapadni),
 > [Manish Visave](https://github.com/ManishDV),
 > <br>
-> [Preprint Link of Paper](https://arxiv.org/abs/2004.12629)<br>
+> [CVPR Link of Paper](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Prasad_CascadeTabNet_An_Approach_for_End_to_End_Table_Detection_and_CVPRW_2020_paper.pdf)<br>
+> [arXiv Link of Paper](https://arxiv.org/abs/2004.12629)<br>
 > <a href="results.pdf">Supplementary file</a> <br>
-> The paper has been accepted at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
-> 
+> The paper was presented (Orals) at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
+> Virtual Oral Presentation [Video](https://www.youtube.com/watch?v=6rovEyWKZw8)
 <img align="right" src="imgs/CVPR Teaser.gif" />
 
 ## 1. Introduction
