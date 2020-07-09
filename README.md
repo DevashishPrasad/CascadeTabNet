@@ -29,9 +29,12 @@ CascadTabNet is an automatic table recognition method for interpretation of tabu
 pip install -q mmcv terminaltables
 git clone --branch v1.2.0 'https://github.com/open-mmlab/mmdetection.git'
 cd "mmdetection"
+pip install -r "/content/mmdetection/requirements/optional.txt"
 python setup.py install
 python setup.py develop
 pip install -r {"requirements.txt"}
+pip install pillow==6.2.1 
+pip install mmcv==0.4.3
 </pre>
 
 <b>Code is developed under following library dependencies</b> <br>
