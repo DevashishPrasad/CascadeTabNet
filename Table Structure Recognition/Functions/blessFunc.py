@@ -327,7 +327,7 @@ def borderless(table, image, res_cells):
 
     def rowstart(val):
       r = 0
-      while(val > _row_[r]):
+      while(r < len(_row_) and val > _row_[r]):
         r += 1  
       if r-1 == -1:
         return r
@@ -336,7 +336,7 @@ def borderless(table, image, res_cells):
         
     def rowend(val):
       r = 0
-      while(val > _row_[r]):
+      while(r < len(_row_) and val > _row_[r]):
         r += 1  
       if r-1 == -1:
         return r
