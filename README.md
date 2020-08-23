@@ -71,7 +71,6 @@ Codes: <a href="https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Dat
 
 #### 3. TableBank
 <img src="imgs/tablebank.png" width="450"/>
-<br>
 
 #### TableBank Benchmarking : <a href="https://doc-analysis.github.io/"> <b>Official Leaderboard</b></a><br>
 TableBank Dataset Divisions : <a href="https://drive.google.com/open?id=1lxpK4sa4LTSHPFuQEsjFdx87NAlQ8F5O">TableBank</a>
