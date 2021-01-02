@@ -77,3 +77,6 @@ horizontal = cv2.erode(horizontal, (1,1), iterations=5)
 <!--![Lines](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/lines_detected.PNG)-->
 
 As we can observe the lines are very well detected but multiples lines are detected at the same location.So, further postprocessing is applied to remove the detection of multiple lines.
+
+### 3. Text Detection
+For text Detection, you can use [this](https://github.com/AyanGadpal/TextTron-Lightweight-text-detector) 
