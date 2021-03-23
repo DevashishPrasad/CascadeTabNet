@@ -126,6 +126,12 @@ You may refer this <a href="https://www.dlology.com/blog/how-to-train-an-object-
 
 You may refer this <a href="/Data Preparation/generateVOC2JSON.py">script</a> to convert your Pascal VOC XML annotation files to a single COCO Json file.
 
+## 9. Docker
+
+The docker image of this project can be found at <a href="https://hub.docker.com/repository/docker/akadirpamukcu/tabnet">docker hub</a> 
+
+It currently contains three models from model zoo. For details you can check the readme file at the docker hub.
+
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
 Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
