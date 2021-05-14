@@ -13,7 +13,10 @@
 > [arXiv Link of Paper](https://arxiv.org/abs/2004.12629)<br>
 > <a href="results.pdf">Supplementary file</a> <br>
 > The paper was presented (Orals) at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
+
+
 > Virtual Oral Presentation [YOUTUBE VIDEO](https://www.youtube.com/watch?v=6rovEyWKZw8)
+> <br> Cascadetabnet Demo by Bhavesh Bhatt [YOUTUBE VIDEO](https://www.youtube.com/watch?v=bFahxVX9Ka0)
 <img align="right" src="imgs/CVPR Teaser.gif" />
 
 ## 1. Introduction
